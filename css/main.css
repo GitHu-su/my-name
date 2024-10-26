@@ -1,0 +1,91 @@
+li{
+    color: gold;
+    background-color: cyan;
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: navy; 
+    background-color: blue;
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* th{
+    color: navy;
+    background-color: slateblue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+#navbar{
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+#navbar th {
+    border-style: solid;
+}
+body{
+    background-image: url(../img/blue-tile.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #000080;
+    color: #fffaff;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #FFFAFF;
+}
+.navbar{
+    background-color: #FFFAFF;
+    border: solid;
+    font-size: 20px;
+}
+.navbar th{
+    border: solid #000080;
+    padding: 5px;
+}
+footer{
+    background-color: #000080;
+    color: #FFFAFF;
+    font-size: 12px;
+    border: 3px solid #FFFAFF;
+    padding-left: 5px;
+}
+.profile{
+    background-color: #3e92cc;
+    text-align: center;
+}
+.even-row{
+    background-color: #5764a5;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFFAFF;
+    color: #000080;
+    padding: 5px ;
+    box-shadow: 5px 5px 10px black;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+} 
+.active{
+    background-color: lightcoral;
+}
+p{
+    background-color: blueviolet;
+    text-align: center;
+    color: #FFFAFF;
+}
